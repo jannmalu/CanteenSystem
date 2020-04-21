@@ -1,0 +1,208 @@
+body
+{
+    margin:0px;
+    background-color: darkgrey;
+    font-family: 'Zilla Slab', serif;
+}
+.navbar {
+    background-color: #000000;
+    color:white;
+    border-radius: 0px;
+    padding: 10px;
+  }
+  .navbar-brand span
+  {
+      color: #F97300;
+  }
+  .navbar-nav li
+  {
+      font-size: 20px;
+  }
+  .navbar .navbar-brand {
+    color: #f3f7f7;
+    font-size: 60px;
+    font-family: 'Tangerine', cursive;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-text {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-text a {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #0f0f0f; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #f3f7f7;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #0f0f0f;
+    background-color: #F97300;
+  }
+  .navbar .navbar-toggle {
+    border-color: #F97300;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #F97300;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #f3f7f7;
+  }
+  .navbar .navbar-link {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-link:hover {
+    color: #0f0f0f;
+  }
+
+.main-colour-bg
+{
+      background: black !important;
+      color:white !important;
+      border:1px solid lightgrey;
+}
+.well
+{
+    width:450%;
+    display: flex;
+    flex-direction: row;
+}
+.well img
+{
+    width:150px;
+    padding:5px;
+}
+.item-box
+{
+    display: flex;
+    flex-direction: column;
+    padding:18px;
+}
+.span-box
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.dash-box
+{
+    text-align:center;
+}
+.dash-box h5
+{
+  font-size: 20px;
+}
+#header h1 
+{
+    color:black;
+}
+#header small
+{
+    color:white;
+}
+.pull-right button
+{
+  background-color:black;
+}
+.pull-right button:hover
+{
+  background-color:black;
+  color:white;
+}
+.panel-title
+{
+    text-align:center;
+    font-size: 22px;
+    padding:10px;
+}
+.list-group-item
+{
+    padding:20px;
+}
+.list-group
+{
+    border:1px solid lightgrey;
+    border-radius:10px;
+}
+#navbar-cart span
+{
+  color:black;
+}
+.modal-title
+{
+  text-align: center;
+  font-size: 40px;
+  color: #F97300;
+  font-weight: bold;
+}
+.modal-body
+{
+  padding:40px;
+}
+.modal-footer .btn-default
+{
+  background-color: black;
+  color: white;
+}
+table img
+{
+  width:100px;
+}
+.form-group label
+{
+  font-size: 18px;
+}
+.form-group input
+{
+  border: 1px solid grey;
+}
+.btn-default
+{
+  background: black;
+  color:white;
+}
+.btn-default:hover
+{
+  background: black;
+  color: white;
+}
+footer
+{
+    background-color: black;
+    padding: 20px;
+}
+.list-inline-item img
+{
+    width:35px;
+}
+.footer-copyright
+{
+    color: white;
+    font-size: 20px;
+}
+.footer-copyright a
+{
+    color: white;
+    text-decoration: none;
+}

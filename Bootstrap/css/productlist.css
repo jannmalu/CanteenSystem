@@ -1,0 +1,202 @@
+body
+{
+    margin:0px;
+    background-color: darkgrey;
+    font-family: 'Zilla Slab', serif;
+}
+.navbar {
+    background-color: #000000;
+    color:white;
+    border-radius: 0px;
+    padding: 10px;
+  }
+  .navbar-brand span
+  {
+      color: #F97300;
+  }
+  .navbar-nav li
+  {
+      font-size: 20px;
+  }
+  .navbar .navbar-brand {
+    color: #f3f7f7;
+    font-size: 60px;
+    font-family: 'Tangerine', cursive;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-text {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-text a {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #0f0f0f; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #f3f7f7;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #0f0f0f;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #0f0f0f;
+    background-color: #F97300;
+  }
+  .navbar .navbar-toggle {
+    border-color: #F97300;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #F97300;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #f3f7f7;
+  }
+  .navbar .navbar-link {
+    color: #f3f7f7;
+  }
+  .navbar .navbar-link:hover {
+    color: #0f0f0f;
+  }
+
+.main-colour-bg
+{
+      background: black !important;
+      color:white !important;
+      border:1px solid lightgrey;
+}
+.navbar-nav .nav-item .nav-link 
+{
+  color:black;
+}
+#header h1 
+{
+    color:black;
+}
+#header small
+{
+    color:white;
+}
+.panel-title
+{
+    text-align:center;
+    font-size: 22px;
+    padding:10px;
+}
+.list-group-item
+{
+    padding:20px;
+}
+.list-group
+{
+    border:1px solid lightgrey;
+    border-radius:10px;
+}
+.card-deck
+{
+  text-align: center;
+  padding:5px;
+}
+.cart-bar
+{
+  padding:30px;
+}
+.cart-bar li 
+{
+  list-style: none;
+}
+.cart-bar a
+{
+  text-decoration: none;
+  color: black;
+}
+.card-body img
+{
+  width:200px;
+}
+.card-body
+{
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+}
+.card-title
+{
+  font-size: 20px;
+  padding: 10px;
+}
+.card-subtitle
+{
+  font-size: 16px;
+  color: #000000;
+}
+.card-price
+{
+  padding-left:20px;
+  padding-top: 5px;
+}
+.check-title
+{
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.place-button
+{
+  padding:10px;
+}
+.btn-default
+{
+  background-color: black;
+  color:white;
+  font-size: 12px;
+}
+.btn-default:hover
+{
+  background-color: black;
+  color:white;
+}
+.text-heading
+{
+  text-align: center;
+  font-size:30px;
+}
+#btnEmpty
+{
+  text-align: center;
+  font-size:12px;
+  color: white;
+  text-decoration: none;
+}
+.no-records
+{
+  text-align: center;
+  font-size:20px;
+  padding-bottom:15px;
+}
+.center-block
+{
+  background: grey;
+}
+.pull-right a
+{
+  color: white;
+  text-decoration: none;
+}
