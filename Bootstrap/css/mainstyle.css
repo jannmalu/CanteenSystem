@@ -1,0 +1,159 @@
+body
+{
+    margin:0px;
+    font-family: 'Zilla Slab', serif;
+}
+/* T H E  H O M E P A G E */
+.navbar
+{
+    border-radius: 0px;
+    background-color: black;
+    color:white;
+    padding:20px;
+    margin:0px;
+}
+.navbar-brand
+{
+    font-size: 70px;
+    font-family:'Tangerine', cursive;
+}
+.navbar-brand span
+{
+    color:#F97300;
+}
+.navbar-nav li
+{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.carousel-inner img
+{
+    max-width: 100%;
+    max-height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description
+{
+    position: absolute;
+    top:30%;
+    margin: auto;
+    padding: 2em;
+    font-family: 'Zilla Slab', serif;
+}
+.description h1
+{
+    color: #F97300;
+    font-size: 45px;
+}
+.description p
+{
+    color: white;
+    font-size: 25px;
+    width:50%;
+    line-height: 1.5;
+}
+.description a
+{
+    color:white;
+    text-decoration: none;
+}
+.description button
+{
+    border:2px solid #F97300;
+    background: #F97300;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer
+{
+    background-color: black;
+    padding: 20px;
+}
+.list-inline-item img
+{
+    width:35px;
+}
+.footer-copyright
+{
+    color: white;
+    font-size: 20px;
+}
+.footer-copyright a
+{
+    color: white;
+    text-decoration: none;
+}
+/* T H E  L O G I N  P A G E */
+.form-signin
+{
+    position: absolute;
+    box-sizing: border-box;
+    border: 4px solid #F97300;
+    width:50%;
+    top:10%;
+    left:25%;
+    padding: 40px;
+    background: black;
+}
+.form-logo
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Tangerine', cursive;
+}
+.form-logo span
+{
+    color: #F97300;
+    font-size: 50px;
+}
+.form-title
+{
+    margin: 0px;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.form-label
+{
+    padding: 15px;
+}
+.form-label label
+{
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+}
+.form-label span
+{
+    color:#F97300;
+}
+input[type=text], input[type=password], select
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border:1px solid black;
+    border-radius:2px;
+    background: lightgrey;
+}
+.form-button button
+{
+    border:2px solid #F97300;
+    background: #F97300;
+    color: white;
+    font-size: 22px;
+    width:50%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.form-button
+{
+    border: none;
+    cursor: pointer;
+}
